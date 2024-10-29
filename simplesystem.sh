@@ -2,9 +2,6 @@
 username=$(whoami)
 echo "Hello, current user: $username"
 
-echo "Testing internet..."
-ping -c 5 google.com
-
 echo "Disk usage..."
 df -h
 
